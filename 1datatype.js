@@ -6,8 +6,6 @@ Boolean = true false
 
 null
 undefined
-BigInt
-Symbol
 
 ////es5/////
 var a = "hi"
@@ -93,10 +91,45 @@ number+number = number
 
 
 10+"20"+30-1
+"102030"-1
 > 102029
 
 "10"+20+30-1
+"102030"-1
 > 102029
 
 10+20+"30"-1
+"3030"-1
 > 3029
+
+if both the side of operator its pure numeric value
+
++ is still concat
+
+but all other - * / % will work
+
+var a = "10"
+undefined
+var b ="20"
+undefined
+a+b
+"1020"
+b-a
+10
+a*b
+200
+a-b
+-10
+b/a
+2
+
+"10"-1
+9
+2*"20"
+40
+"10a"*2
+NaN
+"10a"+2
+"10a2"
+"10a"/"b"
+NaN
