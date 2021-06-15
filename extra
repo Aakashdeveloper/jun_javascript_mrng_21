@@ -11,9 +11,10 @@ Ecma 7
 > DataTypes
 > variable
 > Operations
-> String literals
-> String
+> String Operations
+///////////////////////
 > Math
+> String literals
 > localstorage
 > sessionStorage
 > cookies
