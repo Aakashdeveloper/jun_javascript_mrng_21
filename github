@@ -1,0 +1,22 @@
+> https://git-scm.com/downloads
+
+
+//firsttime new folder
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testgitapp.git
+git push -u origin master
+
+git status
+
+//next all time
+git add .
+git commit -m "first commit"
+git push
+
+//
+git pull
+
+git clone https://github.com/Aakashdeveloper/testgitapp

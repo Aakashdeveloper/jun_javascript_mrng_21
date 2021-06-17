@@ -12,18 +12,20 @@ Ecma 7
 > variable
 > Operations
 > String Operations
-///////////////////////
 > Math
 > String literals
 > localstorage
 > sessionStorage
 > cookies
 > let, const
+> github 
+///////////////////////
 > condition
 > if else
 > ternery Operations
 > Date
 > switch
+
 > array
 > loops
 > Rest
@@ -31,7 +33,6 @@ Ecma 7
 > Es6
     > maps,filter
 > regex
-> github
 > Clousers
 > Hoisting
 > spread
@@ -86,3 +87,25 @@ v8 engine
 
 
 1,639,378
+
+
+let output = []
+function add(a,b){
+    output.push(a+b)
+}
+
+var count = 0;
+var testCode = setInterval(function(){
+    count+=1;
+    add(1, count);
+  }, 2000);
+
+
+setTimeout(() => { clearInterval(testCode); alert('stop'); }, 10000);
+
+
+autoClose
+eslint
+gitHistory
+gitlens
+vscode-icons
