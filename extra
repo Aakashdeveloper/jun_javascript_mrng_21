@@ -19,14 +19,14 @@ Ecma 7
 > cookies
 > let, const
 > github 
-///////////////////////
 > condition
 > if else
 > ternery Operations
 > Date
+///////////////////////
 > switch
-
 > array
+
 > loops
 > Rest
 > Functions
@@ -109,3 +109,14 @@ eslint
 gitHistory
 gitlens
 vscode-icons
+
+
+/////////////////
+var 
+loop 
+func 
+if else 
+array
+object
+
+
