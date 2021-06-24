@@ -5,7 +5,6 @@ var type = "action"
 var ind = "Hollywood"
 
 var out = "The "+name+" is an "+type+" movie, with rating of "+rating+" and from ind "+ind+".";
-
 console.log("this is es5",out)
 "The Avengers is an action movie, with rating of 4.5 and from ind Hollywood."
 

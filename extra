@@ -26,16 +26,16 @@ Ecma 7
 > switch
 > array
 > loops
+> Rest
+> spread
 ///////////////////////
 > Functions
-> Rest
-
 > Es6
     > maps,filter
 > regex
+
 > Clousers
 > Hoisting
-> spread
 > JSON
 > Es6
     > Transpile
@@ -49,7 +49,6 @@ Ecma 7
     > classes
 
 > DoM
-
 > Calc
 > currenyConvertor
 > promis
