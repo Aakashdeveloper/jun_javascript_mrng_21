@@ -28,47 +28,53 @@ Ecma 7
 > loops
 > Rest
 > spread
-///////////////////////
 > Functions
 > Es6
     > maps,filter
-> regex
-
 > Clousers
 > Hoisting
+///////////////////////
+> regex
+> object 
 > JSON
 > Es6
     > Transpile
     > import export
 > package.JSON
 > npm
+
 > this 
-> object 
 > Prototypes
 > Es6
     > classes
-
 > DoM
 > Calc
+
 > currenyConvertor
 > promis
+> screen
 > async await
 > Geolocation
-> screen
+
 > Form validation
 > Event
+
 > dark/light mode
 > Dynamic DropDown
-> Progress bar
 > Call/Apply
+
 > set interval
 > set timeout
 > debouncing
+> Progress bar
+
 > sets
 > Baisc Jquery
+
 > Weather application
 > ajax
 > DataTables
+
 > fabonicci
 > factorial
 > palindrome
