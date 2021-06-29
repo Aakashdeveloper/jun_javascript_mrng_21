@@ -17,3 +17,42 @@ Paris
 expect
 
 Delhi,Mumbai,Pune,London,Helsinki,Amsterdam,Venice,Paris
+
+////////
+Write pattern for pasword
+
+///////
+var movies  = [
+    {
+        name:'Avengers',
+        rating:4.4,
+        language:'English',
+        starcast:['Tony Stark','Abc'],
+        timing:['1:00','2:00']
+    },
+    {
+        name:'Jab We Met',
+        rating:4.8,
+        language:'Hindi',
+        starcast:['Sahid', 'Karrena'],
+        city:'delhi'
+    } 
+]
+
+
+from this array 
+pick all the unqiue key name
+
+output > [name,rating,language,starcast,timing,city]
+
+///
+var out = []
+for(){
+    forin(
+        if(value exist in the array (indexOf)){
+            // do not add
+        }else{
+            out.push()
+        }
+    )
+}

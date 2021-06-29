@@ -33,10 +33,10 @@ Ecma 7
     > maps,filter
 > Clousers
 > Hoisting
-///////////////////////
 > regex
-> object 
 > JSON
+///////////////////////
+> object 
 > Es6
     > Transpile
     > import export
@@ -47,6 +47,7 @@ Ecma 7
 > Prototypes
 > Es6
     > classes
+
 > DoM
 > Calc
 
@@ -126,3 +127,18 @@ array
 object
 
 
+
+var a="Delhi10"
+typeof(parseInt(a))
+NaN
+
+typeof(NaN)
+"number"
+
+typeof(NaN)
+"number"
+var a = 10
+undefined
+typeof(a)
+"number"
+NaN+1

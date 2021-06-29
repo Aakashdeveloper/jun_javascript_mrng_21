@@ -36,7 +36,11 @@ cookies
 
 document.cookie
 "_ga=GA1.2.1880173027.1602255983; _gid=GA1.2.873554952.1623672193; city=delhi"
+
+>>>>>>>>
 document.cookie="city=delhi; expires=Fri, 18 Jun 2021 01:00:00 UTC"
+
 "city=delhi; expires=Fri, 18 Jun 2021 01:00:00 UTC"
+
 document.cookie
 "_ga=GA1.2.1880173027.1602255983; _gid=GA1.2.873554952.1623672193; city=delhi"
