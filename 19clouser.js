@@ -21,7 +21,7 @@ ReferenceError: b is not defined
 
 /*
 var a =10 
-var b;
+var b = 10;
 function add(){
     b = 20 
     return a+b 
@@ -87,3 +87,57 @@ function mul(a){
 
 mul(1)(2)(3)
 6
+
+
+
+
+var employeeId = 'abc123';
+
+function foo(){
+	employeeId = '123bcd';
+	return;
+}
+
+foo();
+console.log(employeeId);
+
+Answer: 2) '123bcd'
+
+
+
+
+var employeeId = 'abc123';
+
+function foo() {
+    employeeId = '123bcd';
+	return;
+
+	function abc() {}
+}
+foo();
+console.log(employeeId);
+
+
+Answer: 3) 'abc123'
+
+
+
+
+var employeeId = 'abc123';
+
+
+
+function foo() {
+	employeeId();
+	return;
+
+	function employeeId() {
+		console.log(typeof employeeId);
+	}
+}
+
+
+foo();
+
+
+Answer: 2) 'function'

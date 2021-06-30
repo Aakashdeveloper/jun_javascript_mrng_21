@@ -142,3 +142,17 @@ undefined
 typeof(a)
 "number"
 NaN+1
+
+
+>>>package.json
+> entry point to app
+> meta data(version, name, description)
+> all the packages you have to use     
+> command(start,test)
+
+>>>>Step to generate >>>>
+** nodejs must be installed
+> open terminal/cmd        
+> npm init -y
+
+npm i @babel/core @babel/preset-env @babel/register

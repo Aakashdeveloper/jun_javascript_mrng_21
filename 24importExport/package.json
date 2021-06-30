@@ -1,0 +1,16 @@
+{
+  "name": "24importExport",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/register": "^7.14.5"
+  }
+}
