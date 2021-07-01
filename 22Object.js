@@ -43,7 +43,7 @@ movies['rating']=4
 movies
 {name: "Avengers", lang: "Hindi", ind: "Hollywood", rating: 4}
 
-
+// literal notation
 var movies = {
     name:'Avengers',
     rating:4.5,
