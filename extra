@@ -45,11 +45,12 @@ Ecma 7
 > Prototypes
 > Es6
     > classes
-///////////////////////
 > Html/css (on day)
-
+///////////////////////
 > DoM
 > Calc
+> Form validation
+> Event
 
 > currenyConvertor
 > promis
@@ -57,18 +58,16 @@ Ecma 7
 > async await
 > Geolocation
 
-> Form validation
-> Event
+
 
 > dark/light mode
 > Dynamic DropDown
 > Call/Apply
-
 > set interval
 > set timeout
 > debouncing
-> Progress bar
 
+> Progress bar
 > sets
 > Baisc Jquery
 
