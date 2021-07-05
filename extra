@@ -46,9 +46,9 @@ Ecma 7
 > Es6
     > classes
 > Html/css (on day)
-///////////////////////
 > DoM
 > Calc
+///////////////////////
 > Form validation
 > Event
 
@@ -155,3 +155,9 @@ NaN+1
 > npm init -y
 
 npm i @babel/core @babel/preset-env @babel/register
+
+var data = setInterval(location.reload(),10000)
+
+for(i=0;i<10;i++){
+    location.reload()
+}
