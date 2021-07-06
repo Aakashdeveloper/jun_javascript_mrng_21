@@ -161,3 +161,21 @@ var data = setInterval(location.reload(),10000)
 for(i=0;i<10;i++){
     location.reload()
 }
+
+var add=function (a,b)
+{
+    return a+b
+}
+
+add(1,2)
+
+
+<<<<<<<<Dummy Api>>>>>>>
+>>>One time<<<< 
+> open cmd as administrator
+> npm i -g json-server
+
+>>>Where ever need api <<<<
+> open terminal
+> go inside folder
+> json-server --watch data.json --port 8800

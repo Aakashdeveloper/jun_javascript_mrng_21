@@ -1,9 +1,9 @@
-function calc(opt){
+let calc = (opt) => {
     var a = document.getElementById('first').value;
     var b = document.getElementById('second').value;
     var out;
     // here we are checking input value
-    if(a.length>0 || b.length>0){
+    if(a.trim().length>0 || b.trim().length>0){
         if(isNaN(a) || isNaN(b)){
             out="Enter valid input" 
         }else{
