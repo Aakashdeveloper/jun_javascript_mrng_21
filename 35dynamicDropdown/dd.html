@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="dd.js"></script>
+    </head>
+    <body>
+        <div>
+            <center>
+                <h1>Dynamic Dropdown</h1>
+            </center>
+            <hr/>
+            <select id="city" onChange="getHotel()">
+                <option>Select City</option>
+            </select>
+            <select id="hotels">
+                <option>Select Hotel</option>
+            </select>
+        </div>
+        <script>
+            // page load
+            window.onload = getCity()
+        </script>
+    </body>
+</html>
