@@ -116,16 +116,10 @@ function foo() {
 }
 foo();
 console.log(employeeId);
-
-
-Answer: 3) 'abc123'
-
-
+Answer: 3) '123bcd'
 
 
 var employeeId = 'abc123';
-
-
 
 function foo() {
 	employeeId();
@@ -136,8 +130,31 @@ function foo() {
 	}
 }
 
-
 foo();
-
-
 Answer: 2) 'function'
+
+var employeeId = 'abc123';
+
+function foo() {
+    abc();
+    return;
+	function abc() {
+		console.log(typeof employeeId);
+	}
+}
+
+"string"
+
+
+var employeeId = 'abc123';
+
+function foo() {
+    employeeId = 10
+    abc();
+    return;
+	function abc() {
+		console.log(typeof employeeId);
+	}
+}
+
+number

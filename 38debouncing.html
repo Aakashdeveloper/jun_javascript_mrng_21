@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script>
+            var timer;
+            function myfunc(){
+                console.log("key called")
+            }
+
+            function myDebounce(){
+                clearTimeout(timer);
+                timer = setTimeout(function(){
+                    myfunc();
+                },300 )
+            }
+        </script>
+    </head>
+    <body>
+        <input onkeyup="myDebounce()" placeholder="test....."/>
+    </body>
+</html>
